@@ -24,18 +24,18 @@ const CalendarIntegration: React.FC<CalendarIntegrationProps> = ({ onCalendarSel
   };
 
   return (
-    <Card className="border-0 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-2xl shadow-2xl">
+    <Card className="border-0 bg-slate-800/40 backdrop-blur-xl shadow-lg border border-slate-700/30">
       <CardHeader>
         <CardTitle className="flex items-center space-x-2 text-white">
-          <Calendar className="w-5 h-5 text-cyan-400" />
+          <Calendar className="w-5 h-5 text-blue-400" />
           <span>Calendar Integration</span>
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
         <div className="grid gap-3">
-          <div className="flex items-center justify-between p-4 border border-white/20 rounded-lg hover:bg-white/10 transition-colors backdrop-blur-sm">
+          <div className="flex items-center justify-between p-4 border border-slate-600/50 rounded-lg hover:bg-slate-700/30 transition-colors backdrop-blur-sm">
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 bg-blue-500/30 rounded-full flex items-center justify-center backdrop-blur-sm">
+              <div className="w-8 h-8 bg-blue-500/40 rounded-full flex items-center justify-center backdrop-blur-sm">
                 <Calendar className="w-4 h-4 text-blue-300" />
               </div>
               <div>
@@ -47,16 +47,16 @@ const CalendarIntegration: React.FC<CalendarIntegrationProps> = ({ onCalendarSel
               variant="outline" 
               size="sm"
               onClick={() => handleCalendarConnect('google')}
-              className="flex items-center space-x-1 bg-white/10 border-white/20 text-white hover:bg-white/20 backdrop-blur-sm"
+              className="flex items-center space-x-1 bg-slate-700/50 border-slate-600/50 text-white hover:bg-slate-600/50 backdrop-blur-sm"
             >
               <ExternalLink className="w-3 h-3" />
               <span>Connect</span>
             </Button>
           </div>
           
-          <div className="flex items-center justify-between p-4 border border-white/20 rounded-lg hover:bg-white/10 transition-colors backdrop-blur-sm">
+          <div className="flex items-center justify-between p-4 border border-slate-600/50 rounded-lg hover:bg-slate-700/30 transition-colors backdrop-blur-sm">
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 bg-gray-500/30 rounded-full flex items-center justify-center backdrop-blur-sm">
+              <div className="w-8 h-8 bg-gray-500/40 rounded-full flex items-center justify-center backdrop-blur-sm">
                 <Calendar className="w-4 h-4 text-gray-300" />
               </div>
               <div>
@@ -68,7 +68,7 @@ const CalendarIntegration: React.FC<CalendarIntegrationProps> = ({ onCalendarSel
               variant="outline" 
               size="sm"
               onClick={() => handleCalendarConnect('apple')}
-              className="flex items-center space-x-1 bg-white/10 border-white/20 text-white hover:bg-white/20 backdrop-blur-sm"
+              className="flex items-center space-x-1 bg-slate-700/50 border-slate-600/50 text-white hover:bg-slate-600/50 backdrop-blur-sm"
             >
               <ExternalLink className="w-3 h-3" />
               <span>Connect</span>
