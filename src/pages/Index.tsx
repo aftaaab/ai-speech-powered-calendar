@@ -94,7 +94,7 @@ const Index = () => {
               <Brain className="w-6 h-6 text-white" />
             </div>
             <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              AI Calendar Assistant
+              Speechlender
             </h1>
           </div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
